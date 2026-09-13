@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MoneyTo — Privacy e supporto</title>
+  <meta name="description" content="Informativa sulla privacy e supporto dell'app MoneyTo per iPhone: nessun dato raccolto, tutto resta sul tuo dispositivo.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --ink: #1c1f2b;
+      --muted: #5f6474;
+      --accent: #3e63dd;
+      --accent-soft: #e9edfb;
+      --line: #e3e5ec;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #12141b;
+        --card: #1b1e28;
+        --ink: #eef0f6;
+        --muted: #a2a7b8;
+        --accent: #7b96ff;
+        --accent-soft: #232a45;
+        --line: #2b2f3c;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      padding: 24px 16px 48px;
+    }
+    main { max-width: 720px; margin: 0 auto; }
+    header {
+      display: flex; align-items: center; gap: 14px; margin-bottom: 22px;
+    }
+    .logo {
+      width: 56px; height: 56px; border-radius: 14px; flex: none;
+      background: linear-gradient(180deg, #4a6cf0, #2e4dc7);
+      display: grid; place-items: center;
+    }
+    .logo svg { width: 34px; height: 34px; }
+    h1 { font-size: 26px; margin: 0; line-height: 1.2; }
+    .tagline { color: var(--muted); margin: 2px 0 0; font-size: 15px; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+    nav a {
+      text-decoration: none; color: var(--accent); background: var(--accent-soft);
+      padding: 6px 12px; border-radius: 999px; font-size: 14px; font-weight: 600;
+    }
+    section {
+      background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+      padding: 22px 22px 8px; margin-bottom: 16px;
+    }
+    h2 { font-size: 20px; margin: 0 0 10px; }
+    h3 { font-size: 16px; margin: 18px 0 6px; }
+    p, li { margin: 0 0 12px; }
+    ul { padding-left: 20px; }
+    .muted { color: var(--muted); font-size: 14px; }
+    a { color: var(--accent); }
+    .pill {
+      display: inline-block; background: var(--accent-soft); color: var(--accent);
+      border-radius: 8px; padding: 2px 8px; font-weight: 700; font-size: 14px;
+    }
+    footer { color: var(--muted); font-size: 13px; text-align: center; margin-top: 24px; }
+    @media (max-width: 480px) { section { padding: 18px 16px 4px; } h1 { font-size: 22px; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="logo" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none">
+        <circle cx="50" cy="50" r="30" stroke="#ffffff" stroke-width="13.5" stroke-dasharray="135.7 188.5" stroke-dashoffset="-53" transform="rotate(-90 50 50)"/>
+        <circle cx="50" cy="50" r="30" stroke="#d6409f" stroke-width="13.5" stroke-dasharray="52.8 188.5" transform="rotate(-90 50 50)"/>
+      </svg>
+    </div>
+    <div>
+      <h1>MoneyTo</h1>
+      <p class="tagline">Sapere non solo quanto hai speso, ma per chi.</p>
+    </div>
+  </header>
+
+  <nav aria-label="Sezioni">
+    <a href="#privacy">Privacy</a>
+    <a href="#supporto">Supporto</a>
+    <a href="#english">English</a>
+  </nav>
+
+  <section id="privacy">
+    <h2>Informativa sulla privacy</h2>
+    <p><span class="pill">In breve</span> MoneyTo non raccoglie, non trasmette e non condivide alcun dato personale. Tutto quello che inserisci resta sul tuo iPhone.</p>
+
+    <h3>Quali dati tratta l'app</h3>
+    <p>Le spese, le persone, le categorie, i metodi di pagamento e le note che inserisci sono salvati esclusivamente in un database locale sul tuo dispositivo. Non esiste un account, non c'è un server: nessuna di queste informazioni lascia il telefono.</p>
+
+    <h3>Connessioni a Internet</h3>
+    <p>L'app non effettua connessioni di rete, non utilizza servizi di analisi, pubblicità o tracciamento e non contiene SDK di terze parti che raccolgono dati.</p>
+
+    <h3>Backup ed esportazioni</h3>
+    <p>I file di backup (JSON) e le esportazioni (CSV) vengono creati soltanto quando lo richiedi tu, tramite le funzioni «Backup» ed «Esporta CSV». Sei tu a decidere dove salvarli o con chi condividerli attraverso il foglio di condivisione di iOS: l'app non li invia a nessuno.</p>
+
+    <h3>Face ID / Touch ID</h3>
+    <p>La protezione biometrica, se attivata, utilizza esclusivamente le funzioni di sistema di iOS. L'app non ha accesso ai dati biometrici e non li memorizza.</p>
+
+    <h3>Diagnostica</h3>
+    <p>Eventuali dati di diagnostica o di arresto anomalo sono gestiti da Apple secondo le impostazioni di condivisione del tuo dispositivo (Impostazioni → Privacy e sicurezza → Analisi e miglioramenti) e non vengono raccolti dall'app.</p>
+
+    <h3>Eliminazione dei dati</h3>
+    <p>Disinstallando l'app, tutti i dati vengono eliminati dal dispositivo. Puoi inoltre cancellare singole spese, persone e categorie in qualsiasi momento dall'app.</p>
+
+    <h3>Minori</h3>
+    <p>L'app non è rivolta a minori di 13 anni e, non raccogliendo dati, non tratta informazioni relative a minori.</p>
+
+    <h3>Modifiche</h3>
+    <p>Se questa informativa dovesse cambiare, la versione aggiornata sarà pubblicata su questa pagina con la nuova data.</p>
+
+    <h3>Titolare e contatti</h3>
+    <p>Pietro Avolio — <a href="mailto:piero.avolio@gmail.com">piero.avolio@gmail.com</a></p>
+    <p class="muted">Ultimo aggiornamento: 13 settembre 2026</p>
+  </section>
+
+  <section id="supporto">
+    <h2>Supporto</h2>
+    <p>Hai una domanda, un problema o un suggerimento? Scrivi a <a href="mailto:piero.avolio@gmail.com?subject=MoneyTo">piero.avolio@gmail.com</a> indicando il modello di iPhone e la versione di iOS.</p>
+
+    <h3>Domande frequenti</h3>
+    <p><strong>I miei dati sono al sicuro se cambio telefono?</strong><br>
+    Sì, ma i dati vivono solo sul dispositivo: prima di cambiare iPhone fai Impostazioni → Backup → Esporta e salva il file (per esempio su iCloud Drive). Sul nuovo telefono, Importa backup.</p>
+    <p><strong>Come divido una spesa tra più persone?</strong><br>
+    In «Nuova spesa» tocca più persone: la spesa si divide in parti uguali; nel riquadro «Divisa tra» puoi cambiare la percentuale o l'importo di ciascuno.</p>
+    <p><strong>Posso aprire l'esportazione in Excel o Numbers?</strong><br>
+    Sì: il CSV usa il separatore «;» e la virgola decimale, come le versioni italiane di Excel e Numbers.</p>
+    <p><strong>Ho attivato Face ID e non riesco a entrare.</strong><br>
+    Usa il codice del dispositivo come alternativa: iOS lo propone automaticamente.</p>
+  </section>
+
+  <section id="english">
+    <h2>Privacy policy (English summary)</h2>
+    <p>MoneyTo does not collect, transmit or share any personal data. Everything you enter (expenses, people, categories, notes) is stored only in a local database on your device. The app has no account, no server, no analytics, no advertising and no third-party SDKs, and it makes no network connections. Backups (JSON) and exports (CSV) are created only when you ask for them, and you decide where to save or share them. Face ID / Touch ID, if enabled, relies exclusively on iOS system features: the app never accesses biometric data. Uninstalling the app deletes all data from the device.</p>
+    <p>Contact: Pietro Avolio — <a href="mailto:piero.avolio@gmail.com">piero.avolio@gmail.com</a>. Last updated: September 13, 2026.</p>
+  </section>
+
+  <footer>© 2026 Pietro Avolio · MoneyTo per iPhone</footer>
+</main>
+</body>
+</html>
